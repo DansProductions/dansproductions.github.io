@@ -9,11 +9,11 @@ body{
     src: url('JetBrainsMono-Regular.woff2') format('woff2');
 }
 @font-face {
-    font-family: 'Segoe UI';
+    font-family: 'SegoeUI';
     src: url('SegoeUI.tff') format('truetype');
 }
 p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'SegoeUI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration:none;
