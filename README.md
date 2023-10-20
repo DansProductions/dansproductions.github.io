@@ -1,6 +1,6 @@
 # dansproductions.github.io
 
-
+/*
 GUIA
 
 
@@ -38,5 +38,5 @@ Ir a ficheiro discografia.html.
     -Para mudar o link para onde se vai ao clicar: mudar o conteudo de href="...";
     -Para mudar o titulo: mudar o conteudo de  <h2>...</h2>.
 
-
+*/
     
