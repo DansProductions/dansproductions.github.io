@@ -1,0 +1,56 @@
+
+
+.podcast {
+	display:flex;
+	//border:1px solid blue;
+	margin-top: 25vh !important;
+	margin-bottom: 10vh;
+}
+
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	position: absolute;
+	left: 5vw;
+	top: 15vh;
+	font-size: 3rem;
+}
+
+.podcast h2	 {
+	position:absolute;	
+	width:100%;
+	text-align: center;
+}
+
+.podcast .pvid img{
+	width:60vw;
+	margin-left:2vw;
+	margin-top:7vh;
+}
+.pod {
+	//display:grid;
+	color: white;
+	//position:absolute;
+	margin-top: 7vh;
+	margin-left: 5vw;
+}
+
+.pod .icon{
+	margin-top:2vh;
+}
+
+@media screen and (max-width:920px){
+	.podcast{
+		display:grid;
+	}
+	.podcast .pvid img{
+		width:90vw;
+		margin-left:5vw;
+	}
+
+	.pod .icon{
+		transform:scale(3);
+	}
+}

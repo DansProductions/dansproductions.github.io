@@ -1,0 +1,206 @@
+
+
+.title {
+    top: 20vh;
+    right: 0vw;
+    width: 100vw;
+}
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .title h6 {
+        font-size: 1rem;
+    }
+
+header {
+    position: fixed;
+    display: grid;
+    //width: 20vw;
+    width: 5vh;
+    height: 3vh !important;
+    top: 1rem;
+    right: 1rem;
+    background: none !important;
+    //padding: 0rem 0 1rem 0;
+    transition: ease-in-out 200ms;
+    z-index: 900;
+    border-top: 4px white solid;
+    border-bottom: 4px white solid;
+    //border: 1px blue solid;
+    overflow: hidden;
+}
+
+    header hr {
+        margin-top: 1.1vh !important;
+        width: 100%;
+        background: white;
+        height: 3px;
+        display: block !important;
+    }
+
+    header:hover {
+        background: black !important;
+        width: 40vw;
+        height: 45vh;
+    }
+
+        header:hover .navL, header:hover .navR {
+            opacity: 1;
+        }
+
+.navL {
+    background: none !important;
+    position: relative;
+    display: grid;
+    //height:20vh;
+}
+
+    .navL ul, .navR ul {
+        display: grid;
+        justify-content: center;
+    }
+
+.navR, .navL {
+    width: 100%;
+    opacity: 0;
+}
+
+    .navL ul li, .navR ul li {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+.navR {
+    background: none !important;
+    position: relative;
+    display: grid;
+    //right: 0;
+}
+
+.logo {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 4rem;
+    width: min-content;
+    z-index: 990;
+    transition: ease-in-out 200ms;
+}
+
+header span, header li {
+    color: white;
+    font-family: JetBrainsMono;
+    font-size: 2rem !important;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.hero img {
+    height: auto;
+    width: 100vw;
+}
+
+.player video {
+    height: 100vh;
+    object-fit: fill;
+}
+
+.sec .sech1 {
+    font-size: 3rem;
+}
+
+.dest1, .dest3 {
+    position: relative;
+    margin-bottom: 5vh;
+    width: 90vw;
+    height: 30vh !important;
+    background: #AE1600;
+}
+
+.anext, .segue {
+    margin-left: 4vw !important;
+    padding-top: 0;
+}
+
+.blocks {
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+    margin-top: 0 !important;
+}
+
+.dest1 .block, .dest3 .block {
+    height: 15vh !important;
+}
+
+.dest1 h2 {
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    right: 0;
+    transform: rotateZ(90deg);
+    //border: 1px blue solid;
+    width: max-content;
+    text-align: center;
+}
+
+.dest2 h2 {
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    transform: rotateZ(-90deg);
+    //border: 1px blue solid;
+    width: max-content;
+    text-align: center;
+    right: 0 !important;
+}
+
+.dest3 h2 {
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    //right: 0;
+    transform: rotateZ(90deg);
+    //border: 1px blue solid;
+    width: max-content;
+    text-align: center;
+}
+
+.dest2 {
+    height: 30vh;
+    width: 90vw;
+    margin-left: 10vw;
+}
+
+.C2 {
+    padding-left: 5%;
+    height: 52% !important;
+    bottom: 0 !important;
+}
+
+.C3 {
+    //padding-right: 5%;
+    height: 52% !important;
+    bottom: 0 !important;
+}
+
+.alast {
+    height: 100%;
+    margin-top: 5%;
+}
+
+.disc {
+    right: -12.7rem !important;
+    display: none;
+}
+
+.last, .disc {
+    height: 80% !important;
+}
+
+.footer .fcenter {
+    top: 5vh;
+}
