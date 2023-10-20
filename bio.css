@@ -27,6 +27,9 @@ header {
     //border: blue 1px solid;
 }
 }
+body{
+    line-height:normal !important;
+}
 span, li {
     color: white;
     font-family: JetBrainsMono;
