@@ -1,1 +1,42 @@
 # dansproductions.github.io
+
+
+GUIA
+
+
+---------------------HOMGEPAGE------------------
+
+Ir a ficheiro index.html.
+
+  Para adicionar ultimos eventos:
+    -Adicionar imagem com nome numerado respetivamente,(exemplo: "evento8" há pasta imgs/eventos;
+    -Alterar conteudo de <img src="imgs/eventos/..."> para o nome da nova imagem e o tipo de imagem que é, (exemplo: eventos9.jpeg);
+    -Ajustar a numeração dos eventos nas secções <div class="ab">, provavelmente avançar um valor em cada, (exemplo: eveto7 passa para event8).
+
+  Para alterar o ultimo lançamento:
+    -Adicionar imagem com nome numerado respetivamente,(exemplo: "album3" há pasta imgs/albuns;
+    -Alterar conteudo de <img src="imgs/albuns/..." para a nova imagem adicionand o tipo de imagem que é, (exemplo:album3.jpeg);
+    -Alterar conteudo de <a href="..."> para o link do novo album.
+  
+  Para adicionar ultimos projetos:
+    -Adicionar imagem com nome numerado respetivamente,(exemplo: "projeto2" há pasta imgs/projetos;
+    -Alterar conteudo de <img src="imgs/eventos/..."> para o nome da nova imagem e o tipo de imagem que é, (exemplo: projeto2.jpeg);
+    -Remover ou adicionar secções <div class="ab2"> consoante a extenção de imagens do projeto.
+
+---------------------EVENTOS------------------
+
+Ir a ficheiro eventos.html.
+  Para adicionar eventos mais recente:
+    -Adicionar imagem com nome numerado respetivamente,(exemplo: "evento8" há pasta imgs/eventos;
+    -Copiar e colar a <div class="box"> acima da anterior;
+    -Alterar o conteudo de <img src="imgs/eventos/..."> para o nome da nova imagem e o tipo de imagem que é, (exemplo: eventos9.jpeg).
+
+---------------------DISCOGRAFIA------------------
+
+Ir a ficheiro discografia.html.
+  Para adicionar outro lançamento mais recente copiar e colar a <div class="box"> acima das anteriores:
+    -Para mudar o link para onde se vai ao clicar: mudar o conteudo de href="...";
+    -Para mudar o titulo: mudar o conteudo de  <h2>...</h2>.
+
+
+    
