@@ -1,4 +1,6 @@
-/*header {
+
+@media screen and (min-width:520px){
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -19,7 +21,9 @@
     z-index: 990;
     transition: ease-in-out 200ms;
     //border: blue 1px solid;
-}*/
+}
+}
+
 
 .albuns {
     margin-top: 30vh;
