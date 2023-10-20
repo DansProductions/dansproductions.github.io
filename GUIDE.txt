@@ -14,7 +14,7 @@ Ir a ficheiro index.html.
 
   Para alterar o ultimo lançamento:
     -Adicionar imagem com nome numerado respetivamente,(exemplo: "album3" há pasta imgs/albuns;
-    -Alterar conteudo de <img src="imgs/albuns/..." para a nova imagem adicionand o tipo de imagem que é, (exemplo:album3.jpeg);
+    -Alterar conteudo de <img src="imgs/albuns/..."> para a nova imagem adicionand o tipo de imagem que é, (exemplo:album3.jpeg);
     -Alterar conteudo de <a href="..."> para o link do novo album.
   
   Para adicionar ultimos projetos:
